@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Sideswipe Arcade",
+      "hasCanvas": true,
+      "bodyTextLen": 1102,
+      "bodyTextHash": "513609296f230dd73312e6cd7099e160b804dfeb1412a6efe735cb35edd4f387",
+      "bodyTextPrefix": "RL SIDESWIPE SAISON 1 VÉLOCITÉ ACCUEIL JOUER COMPÉTITIONS PROFIL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Sideswipe Arcade",
+      "hasCanvas": true,
+      "bodyTextLen": 1036,
+      "bodyTextHash": "8dcfe7fa3ddfccb1eac8c083a84312e1a9544d7eadd8b0d21d9a0508b9c6daf7",
+      "bodyTextPrefix": "RL SIDESWIPE ACCUEIL JOUER COMPÉTITIONS PROFIL GARAGE BOUTIQUE G",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/og.jpg is missing. Games and visually rich apps must ship a custom 1200x630 share card built from the app's own art — the default og.grok.me placeholder card is not acceptable for them. You are not done: open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass.",
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

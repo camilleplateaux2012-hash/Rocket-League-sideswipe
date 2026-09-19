@@ -1,0 +1,8 @@
+{
+  "name": "Remix Rocket League Sideswipe",
+  "description": "Jeu d'arcade football de véhicules 2D inspiré de Rocket League Sideswipe avec la Corvette C8.R, compétitions classées, matchmaking en ligne & bots, gain de MMR, classement mondial, physique réaliste et personnalisation complète.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: 'Rajdhani', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+    overscroll-behavior: none;
+    -webkit-touch-callout: none;
+    background-color: #020617;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Immersive Web Fullscreen Fallback */
+body.app-immersive-mode {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden !important;
+  z-index: 99999;
+}
+
+.font-display {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/* Custom neon glow utilities */
+.neon-glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.6), inset 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.neon-glow-orange {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.6), inset 0 0 15px rgba(249, 115, 22, 0.4);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 10px rgba(96, 165, 250, 0.8), 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+.text-glow-orange {
+  text-shadow: 0 0 10px rgba(251, 146, 60, 0.8), 0 0 20px rgba(249, 115, 22, 0.5);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(250, 204, 21, 0.8), 0 0 20px rgba(234, 179, 8, 0.5);
+}

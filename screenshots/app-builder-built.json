@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Sideswipe Arcade",
+      "hasCanvas": true,
+      "bodyTextLen": 1102,
+      "bodyTextHash": "513609296f230dd73312e6cd7099e160b804dfeb1412a6efe735cb35edd4f387",
+      "bodyTextPrefix": "RL SIDESWIPE SAISON 1 VÉLOCITÉ ACCUEIL JOUER COMPÉTITIONS PROFIL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Sideswipe Arcade",
+      "hasCanvas": true,
+      "bodyTextLen": 1036,
+      "bodyTextHash": "8dcfe7fa3ddfccb1eac8c083a84312e1a9544d7eadd8b0d21d9a0508b9c6daf7",
+      "bodyTextPrefix": "RL SIDESWIPE ACCUEIL JOUER COMPÉTITIONS PROFIL GARAGE BOUTIQUE G",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
